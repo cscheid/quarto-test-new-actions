@@ -2,6 +2,8 @@ on:
   push:
     branches: main
 
+permissions: write-all
+
 name: Render and Publish
 
 jobs:
