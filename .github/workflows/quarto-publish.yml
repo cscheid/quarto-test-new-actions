@@ -13,6 +13,10 @@ jobs:
         
       - name: Set up Quarto
         uses: cscheid/quarto-actions/setup
+        env:
+          ACTIONS_STEP_DEBUG: true
+          ACTIONS_RUNNER_DEBUG: true
+        
         # with:
         #   # To install LaTeX to build PDF book 
         #   tinytex: true 
